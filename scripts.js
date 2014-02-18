@@ -7,7 +7,7 @@ console.log("javascript file loaded");
 function loadedJSON(RISHI){
 	//console.log the "count" property of our json.
 	//I expect for the output to be 409.
-	console.log (RISHI.count);
+	console.log (RISHI.observations[0].value);
 }
 
 /*
